@@ -26,8 +26,8 @@ const Projects = () => {
                 <p className="card-text">Tech used: React Js<br /> CSS framework: Bootstrap</p>
                 <p className="card-text">A Portfolio Website, where you get to know more about me.</p>
                 <div className="d-flex justify-content-between">
-                  <a href="https://github.com/Rishu18D/My-Portfolio-" className="btn btn-primary">Code</a>
-                  <a href="https://my-portfolio-10.vercel.app/" className="btn btn-secondary">Demo</a>
+                  <a href="https://github.com/Rishu18D/My-Portfolio" className="btn btn-primary">Code</a>
+                  <a href="https://my-portfolio-chi-rosy-55.vercel.app/" className="btn btn-secondary">Demo</a>
                 </div>
               </div>
             </div>
