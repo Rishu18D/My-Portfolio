@@ -1,0 +1,8 @@
+body {
+  background-color: #ddd; /* Light grayish-blue for a soft background */
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333; /* Dark gray text color for readability on light backgrounds */
+}

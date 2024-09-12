@@ -1,0 +1,54 @@
+/* Contact Page Styles */
+.myContactPage {
+  color: #000; /* Black color for text */
+  position: relative;
+  max-width: 50%;
+}
+
+.connectText,
+.contact-heading {
+  color: #000; /* Black color for headings */
+}
+
+.ContactImg {
+  margin-right: 2%;
+  height: 20px; 
+  width: 20px;
+}
+
+.ContactIcon {
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  color: #000; /* Black color for icons */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ContactIcon:hover {
+  transform: translateY(-10px);
+  color: #000; /* Black color for hover effect */
+}
+
+.container {
+  background-color: #f7f8fc; /* Light background color for the container */
+}
+
+.btn {
+  background-color: #000; /* Black button */
+  color: #fff; /* White text for the button */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333; /* Slightly darker black on hover */
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    display: block !important;
+  }
+  .innerSecDiv {
+    flex: 2;
+    display: none;
+  }
+}

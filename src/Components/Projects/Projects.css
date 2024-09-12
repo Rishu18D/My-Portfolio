@@ -1,0 +1,91 @@
+/* Project Heading */
+#projectHead {
+  text-align: center;
+  color: #333; /* Dark color for better readability */
+  font-size: 3rem; /* Reduced for a modern look */
+  padding: 30px;
+  font-weight: 700;
+}
+
+/* Project Titles */
+.card-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; /* Dark color for consistency */
+  font-size: 2rem; /* Adjusted for readability */
+  line-height: 1.4; /* Improved line height for text clarity */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Project Container */
+.projectcontainer {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f4f8; /* Subtle background for a modern feel */
+}
+
+/* Project Section */
+#projectSection {
+  background-color: #fff; /* Clean background for content area */
+  border-radius: 20px;
+  padding: 40px; /* Increased padding for more spacious feel */
+  text-align: center;
+}
+
+/* Project Cards */
+.card {
+  background-color: #fff; /* White background for cards */
+  color: #333; /* Dark text color for readability */
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px; /* Adjusted max-width for better fit */
+  margin: 20px auto; /* Centered and spaced out */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slightly lifted on hover */
+  box-shadow: 0 0 20px rgba(152, 60, 222, 0.95); /* Enhanced shadow effect */
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+  color: #fff; /* White text color */
+  background-color: #333; /* Dark background color for contrast */
+  border: 1px solid #333; /* Matching border color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4a4a4a; /* Slightly lighter dark background */
+  border-color: #4a4a4a;
+}
+
+.btn-secondary {
+  background-color: #ddd; /* Light background for secondary button */
+  border-color: #ddd;
+  color: #333; /* Dark text color for readability */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  #projectHead {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+    padding: 20px;
+  }
+
+  .card {
+    max-width: 100%; /* Full width on small screens */
+    margin: 10px 0; /* Reduced margins for better spacing */
+  }
+
+  .card-title {
+    font-size: 1.5rem; /* Smaller font size on mobile */
+  }
+}

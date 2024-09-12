@@ -1,0 +1,76 @@
+/* Navbar Container */
+#NavPos {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0); 
+  backdrop-filter: transparent;
+  border: none; 
+  box-shadow:none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#NavPos:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly less transparent on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Navbar Brand (Logo) */
+.portfolioLogo {
+  font-family: 'Brush Script MT', cursive; /* Cursive font for logo */
+  font-size: 2.5rem; /* Adjust as needed */
+  font-weight: 700;
+  color: #333; /* Ensure text is visible on the transparent background */
+  transition: color 0.3s ease;
+}
+
+.portfolioLogo:hover {
+  color: #c363e6; /* Highlight color on hover */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #555;
+  font-size: 1rem;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  color: #c363e6; /* Highlight color on hover */
+  transform: translateY(-2px);
+}
+
+/* Contact Icon */
+.contactIcon {
+  display: none;
+  font-size: 1.5rem;
+  color: #c363e6;
+  transition: color 0.3s ease;
+}
+
+.contactIcon:hover {
+  color: #555;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .contactIcon {
+    display: block;
+    padding: 10px;
+  }
+
+  .portfolioLogo {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}
