@@ -6,6 +6,7 @@ import { faGithub, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-
 import Pagination from '../PaginationLinks.jsx';
 import ProfileImage from "../../../public/assets/git_dp.jpg?url";
 import Resume from "../../../public/assets/New_Updated_Resume.pdf";
+import NavMobile from '../MobNev/NavMobile.jsx';
 
 const Home = () => {
 
@@ -64,6 +65,7 @@ const Home = () => {
         </div>
       </section>
       <Pagination prevPage={prevPage} nextPage={nextPage} />
+      <NavMobile/>
     </div>
   );
 }

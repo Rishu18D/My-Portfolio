@@ -5,6 +5,7 @@ import Pagination from '../PaginationLinks';
 import portfolio from "../../../public/assets/Images/my-Portfolio.png?url";
 import PhotoGallery from "../../../public/assets/Images/abc.png?url";
 import Ecom from "../../../public/assets/Images/bbb.png?url";
+import NavMobile from '../MobNev/NavMobile';
 
 const Projects = () => {
   const nextPage = "/contact";
@@ -67,6 +68,7 @@ const Projects = () => {
         </div>
       </section>
       <Pagination prevPage={prevPage} nextPage={nextPage} />
+      <NavMobile/>
     </div>
   );
 }

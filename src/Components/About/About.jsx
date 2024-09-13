@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Pagination from '../PaginationLinks';
+import NavMobile from '../MobNev/NavMobile';
 
 const About = () => {
   const nextPage = "/skills";
@@ -73,6 +74,7 @@ const About = () => {
         </section>
       </div>
       <Pagination nextPage={nextPage} prevPage={prevPage} />
+      <NavMobile/>
     </>
   );
 };

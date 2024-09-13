@@ -11,6 +11,7 @@ import {
 import Pagination from "../PaginationLinks";
 import locationIcon from "../../../public/assets/Images/location.svg";
 import emailIcon from "../../../public/assets/Images/email.svg";
+import NavMobile from "../MobNev/NavMobile";
 
 const Contact = () => {
   const nextPage = "/";
@@ -117,6 +118,7 @@ const Contact = () => {
         {/* Pagination Links */}
         <Pagination prevPage={prevPage} nextPage={nextPage} />
       </div>
+      <NavMobile/>
     </>
   );
 };

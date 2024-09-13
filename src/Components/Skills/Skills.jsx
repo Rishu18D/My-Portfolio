@@ -24,6 +24,7 @@ import render from "../../../public/assets/icons/render.svg";
 import netlify from "../../../public/assets/icons/netlify.svg";
 import socketio from "../../../public/assets/icons/socketio.svg";
 import python from "../../../public/assets/icons/python.svg"; // Python icon
+import NavMobile from '../MobNev/NavMobile';
 
 const Skills = () => {
     const nextPage = "/projects";
@@ -106,6 +107,7 @@ const Skills = () => {
                 </div>
             </section>
             <Pagination prevPage={prevPage} nextPage={nextPage} />
+            <NavMobile/>
         </div>
     );
 }
