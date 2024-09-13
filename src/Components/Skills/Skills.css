@@ -1,70 +1,78 @@
 /* Skills Section */
 .skills-section {
-   /* Light gray background */
+  background-color: #ffffff; /* Clean white background */
   color: #333; /* Dark text color for readability */
-  border: 1px solid #ccc; /* Light gray border */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0; /* Subtle border */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
   padding: 20px;
   text-align: center;
   transition: all 0.3s ease;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .skills-section:hover {
-  box-shadow: 0 0 20px rgba(152, 60, 222, 0.95);
-  transform: translateY(-10px);
+  box-shadow: 0 0 15px rgba(158, 55, 184, 0.5); /* Blue accent shadow */
+  transform: translateY(-8px); /* Lift effect */
 }
 
 .skillsImage {
-  width: 3rem; /* Adjusted for better fit */
-  height: 3rem; /* Adjusted for better fit */
-  margin-bottom: 10px; /* Space between icon and text */
+  width: 4rem; /* Larger size for icons */
+  height: 4rem; /* Maintain icon size consistency */
+  margin-bottom: 15px; /* More spacing between icon and text */
 }
 
 .skill-name {
-  font-size: 1rem; /* Slightly smaller font size for clarity */
-  font-weight: 600;
-  margin-top: 10px;
-  color: #333; /* Dark color for text */
+  font-size: 1.1rem; /* Slightly larger font size */
+  font-weight: 700; /* Bolder font for prominence */
+  color: #333; /* Consistent dark text */
+  margin-top: 12px;
 }
 
+/* Headings */
 .textmain {
-  font-size: 1.5rem; /* Modern font size */
-  font-weight: 700; /* Bold font for emphasis */
-  color: #333; /* Dark color */
+  font-size: 1.75rem; /* Increased font size for section titles */
+  font-weight: 700; /* Bold for emphasis */
+  color: #222; /* Slightly darker for contrast */
+  margin-bottom: 20px;
 }
 
 .textHead {
-  font-size: 2rem; /* Larger font size for section headers */
-  font-weight: 700; /* Bold font for emphasis */
-  color: #333; /* Dark color */
-  margin-bottom: 40px; /* Space below header */
+  font-size: 2.5rem; /* Larger font for main heading */
+  font-weight: 800; /* Extra bold for strong visual hierarchy */
+  color: #333; /* Dark, clear color */
+  margin-bottom: 50px; /* More spacing under heading */
 }
 
 /* Container Styling */
 .skills-container {
-  background-color: #ddd; /* Light gray background */
-  padding: 20px; /* Padding for better spacing */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #ddd; /* Lighter gray for a cleaner look */
+  padding: 40px; /* Increased padding for spaciousness */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Responsive Styling */
 @media (max-width: 768px) {
   .skillsImage {
-    width: 4rem; /* Larger icon size on small screens */
-    height: 4rem; /* Larger icon size on small screens */
+    width: 3.5rem; /* Slightly smaller icons on small screens */
+    height: 3.5rem;
   }
 
   .textmain {
-    font-size: 1.25rem; /* Slightly smaller font size for smaller screens */
+    font-size: 1.5rem; /* Adjusted size for better readability */
   }
 
   .textHead {
-    font-size: 1.75rem; /* Adjusted font size */
+    font-size: 2rem; /* Slightly smaller heading on smaller screens */
   }
 
   .skill-name {
-    font-size: 0.875rem; /* Smaller font size for small screens */
+    font-size: 0.95rem; /* Slightly smaller for mobile */
   }
 }

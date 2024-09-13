@@ -24,7 +24,7 @@
 .contact-info {
   flex: 1;
   padding: 20px;
-  background-color: #fafafa; /* Light background */
+  background-color: #ddd; /* Light background */
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
@@ -76,7 +76,7 @@
 .contact-form-section {
   flex: 1;
   padding: 30px;
-  background-color: #fff; /* White background */
+  background-color: #ddd; /* White background */
   border-radius: 10px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }

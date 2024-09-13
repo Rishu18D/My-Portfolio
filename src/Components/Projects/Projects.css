@@ -29,7 +29,7 @@
 
 /* Project Section */
 #projectSection {
-  background-color: #fff; /* Clean background for content area */
+  background-color: #ddd; /* Clean background for content area */
   border-radius: 20px;
   padding: 40px; /* Increased padding for more spacious feel */
   text-align: center;
@@ -56,22 +56,40 @@
 /* Buttons */
 .btn {
   color: #fff; /* White text color */
-  background-color: #333; /* Dark background color for contrast */
-  border: 1px solid #333; /* Matching border color */
+  background-color: #000; /* Black background color */
+  border: 1px solid #000; /* Black border color */
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
-.btn-primary {
-  background-color: #4a4a4a; /* Slightly lighter dark background */
-  border-color: #4a4a4a;
+.btn:hover {
+  background-color: #000; /* Black background color on hover */
+  border-color: #000; /* Black border color on hover */
 }
 
-.btn-secondary {
-  background-color: #ddd; /* Light background for secondary button */
-  border-color: #ddd;
-  color: #333; /* Dark text color for readability */
+/* Primary Button */
+.btn-primary {
+  background-color: #000; /* Black background color */
+  border-color: #000;
 }
+
+.btn-primary:hover {
+  background-color: #000; /* Ensure black on hover */
+  border-color: #000;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #000; /* Black background color */
+  border-color: #000;
+  color: #fff; /* White text color */
+}
+
+.btn-secondary:hover {
+  background-color: #000; /* Ensure black on hover */
+  border-color: #000;
+}
+
 
 /* Responsive Styling */
 @media (max-width: 768px) {
