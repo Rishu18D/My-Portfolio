@@ -1,54 +1,151 @@
-/* Contact Page Styles */
-.myContactPage {
-  color: #000; /* Black color for text */
+/* General Contact Page Styles */
+.contact-page {
+  color: #333; /* Darker, softer black for text */
   position: relative;
-  max-width: 50%;
+  max-width: 80%; /* Wider for better spacing */
+  margin: 0 auto;
+  padding: 30px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.connectText,
-.contact-heading {
-  color: #000; /* Black color for headings */
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222; /* Soft black */
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #0b0b0b; /* Accent color */
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
-.ContactImg {
-  margin-right: 2%;
-  height: 20px; 
-  width: 20px;
+/* Contact Details */
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  background-color: #fafafa; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-.ContactIcon {
-  margin-right: 20px;
-  height: 25px;
-  width: 25px;
-  color: #000; /* Black color for icons */
+.contact-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #444; /* Dark gray */
+}
+
+.contact-icon {
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.contact-link {
+  color: #09090a; /* Accent color */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #b63ac4; /* Darker on hover */
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #444;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.ContactIcon:hover {
-  transform: translateY(-10px);
-  color: #000; /* Black color for hover effect */
+.icon:hover {
+  transform: translateY(-5px); /* Smooth hover effect */
+  color: #070707; /* Blue on hover */
 }
 
-.container {
-  background-color: #f7f8fc; /* Light background color for the container */
+/* Contact Form Styles */
+.contact-form-section {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
-  background-color: #000; /* Black button */
-  color: #fff; /* White text for the button */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f7f8fc; /* Light, clean background */
+  color: #333;
+  transition: border 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #171718; /* Blue border on focus */
+  outline: none;
+}
+
+/* Button Styles */
+.submit-btn {
+  background-color: #080808;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #333; /* Slightly darker black on hover */
+.submit-btn:hover {
+  background-color: #00050b;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
-  .mainDiv {
-    display: block !important;
+  .contact-page {
+    max-width: 90%;
+    padding: 20px;
   }
-  .innerSecDiv {
-    flex: 2;
-    display: none;
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .contact-info,
+  .contact-form-section {
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 }
