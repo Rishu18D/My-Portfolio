@@ -63,7 +63,7 @@
 
 .icon {
   font-size: 28px;
-  color: #444;
+  color: #000;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -115,7 +115,7 @@
 
 /* Button Styles */
 .submit-btn {
-  background-color: #080808;
+  background-color: #000;
   color: #fff;
   padding: 12px 25px;
   font-size: 1.1rem;

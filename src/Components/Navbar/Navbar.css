@@ -20,7 +20,7 @@
   font-family: 'Brush Script MT', cursive; /* Cursive font for logo */
   font-size: 2.5rem; /* Adjust as needed */
   font-weight: 700;
-  color: #333; /* Ensure text is visible on the transparent background */
+  color: #000; /* Ensure text is visible on the transparent background */
   transition: color 0.3s ease;
 }
 
@@ -30,7 +30,7 @@
 
 /* Navbar Links */
 .nav-link {
-  color: #555;
+  color: #000;
   font-size: 1rem;
   margin-right: 20px;
   font-weight: 500;
@@ -51,7 +51,7 @@
 }
 
 .contactIcon:hover {
-  color: #555;
+  color: #000;
 }
 
 @media (max-width: 767px) {

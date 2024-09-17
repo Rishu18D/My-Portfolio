@@ -20,7 +20,7 @@ const About = () => {
               <div className="col-md-5">
                 <div className="about-img text-center">
                   <img 
-                    src="https://img.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg" 
+                    src="https://img.freepik.com/premium-vector/flat-illustration-creative-boy-with-smiling-face_507991-59.jpg" 
                     alt="Your Photo" 
                     className="rounded-circle img-fluid" 
                   />
